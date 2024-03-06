@@ -1,0 +1,5 @@
+base:
+  chainName: sepolia
+  type: native
+synthetics:
+  - chainName: blasttestnet

@@ -1,0 +1,5 @@
+blasttestnet:
+  threshold: 1
+  validators:
+    - "0x901b2283bFA7C8Cae49Df521d16b014b3d3d83b1"
+

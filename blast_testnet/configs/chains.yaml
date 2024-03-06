@@ -1,0 +1,8 @@
+blasttestnet:
+  name: blasttestnet
+  chainId: 168587773
+  domainId: 168587773
+  protocol: ethereum
+  rpcUrls:
+    - http: https://sepolia.blast.io
+

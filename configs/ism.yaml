@@ -1,0 +1,5 @@
+hyprtestnet:
+  threshold: 1
+  validators:
+    - "0xB40C2B48b5258E9205cF59882638A6261c0be41C"
+

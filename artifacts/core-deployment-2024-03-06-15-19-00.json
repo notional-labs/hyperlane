@@ -11,6 +11,7 @@
     "protocolFee": "0x36330aea0a76e76003eC783326b6BF70DEa3469D",
     "mailbox": "0xd93E5A91a030975501d406b9B7a7BF69A3AE3cdC",
     "proxyAdmin": "0x0551C6CF2314af72eb79a471F2F46f75ee4CC894",
-    "validatorAnnounce": "0xAa1dff6254Fcad3F739059fB16Ba77B53669297c"
+    "validatorAnnounce": "0xAa1dff6254Fcad3F739059fB16Ba77B53669297c",
+    "testRecipient": "0x6D02D635b385353093E009C064b70eF31C605250"
   }
 }

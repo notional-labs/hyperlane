@@ -1,0 +1,16 @@
+{
+  "hyprtestnet": {
+    "merkleRootMultisigIsmFactory": "0x2fAc83f88BA1ef067125e5a9914df1541349380d",
+    "messageIdMultisigIsmFactory": "0x7002763Dc33f724B77334764A319090Fd6Aa5cd1",
+    "aggregationIsmFactory": "0x06781bf548a36d8C88F3A78640B72C571B026Cf0",
+    "aggregationHookFactory": "0x98B39b7247EBC63E03ADb21c34eC3987BaED0f4A",
+    "routingIsmFactory": "0x3005FAc3e482A58964d8b6047d7A677721E014E6",
+    "interchainSecurityModule": "0xfC0e4165dB0431F95596F0A5b37A1C574406A009",
+    "domainRoutingIsm": "0xfC0e4165dB0431F95596F0A5b37A1C574406A009",
+    "merkleTreeHook": "0xe019F881d386d3527bfd3A594b81db75fcCd848c",
+    "protocolFee": "0x36330aea0a76e76003eC783326b6BF70DEa3469D",
+    "mailbox": "0xd93E5A91a030975501d406b9B7a7BF69A3AE3cdC",
+    "proxyAdmin": "0x0551C6CF2314af72eb79a471F2F46f75ee4CC894",
+    "validatorAnnounce": "0xAa1dff6254Fcad3F739059fB16Ba77B53669297c"
+  }
+}

@@ -5,3 +5,14 @@ run-validator:
 
 run-relayer:
 	./hypr_testnet/scripts/run-relayer.sh
+
+init-submodule:
+	$(shell git submodule update --init --recursive)
+
+run-deploy-warp:
+	chmod +x ./hypr_testnet/scripts/deploy-warp.sh
+	./hypr_testnet/scripts/deploy-warp.sh
+
+run-send-transfer:
+	chmod +x ./hypr_testnet/scripts/send-transfer.sh
+	./hypr_testnet/scripts/send-transfer.sh

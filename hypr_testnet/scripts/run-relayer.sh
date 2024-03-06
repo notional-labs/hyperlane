@@ -1,5 +1,6 @@
 HOME_DIR=$(pwd)
 export CONFIG_FILES="${1:-$HOME_DIR/hypr_testnet/artifacts/agent-config-2024-03-06-15-19-00.json}"
+echo "Running relayer with config files: $CONFIG_FILES"
 
 RELAYER_KEY=${2:-$(cat $HOME_DIR/.keys/relayerkey)}
 if [ -z $RELAYER_KEY ]; then
@@ -14,9 +15,9 @@ cd $BINARY_DIR
 
 BINARY_FILE=$BINARY_DIR/target/release/relayer
 
-$BINARY_FILE \
+CONFIG_FILES=$CONFIG_FILES $BINARY_FILE \
     --db ./hyperlane_db_relayer \
     --relayChains hyprtestnet,sepolia \
     --allowLocalCheckpointSyncers true \
     --defaultSigner.key $RELAYER_KEY \
-    --metrics-port 9091 \ 
+    --metrics-port 9091 \

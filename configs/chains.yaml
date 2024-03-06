@@ -1,0 +1,8 @@
+hyprtestnet:
+  name: hyprtestnet
+  chainId: 882
+  domainId: 882
+  protocol: ethereum
+  rpcUrls:
+    - http: https://rpc-testnet.hypr.network/
+

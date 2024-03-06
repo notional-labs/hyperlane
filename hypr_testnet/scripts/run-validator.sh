@@ -12,7 +12,7 @@ cd $BINARY_DIR
 BINARY_FILE=$BINARY_DIR/target/release/validator
 
 
-VALIDATOR_KEY=${2:-$(cat $HOME_DIR/.keys/valkey)}
+VALIDATOR_KEY=${2:-$(cat $HOME_DIR/hypr_testnet/.keys/valkey)}
 if [ -z $VALIDATOR_KEY ]; then
     echo "No validator key provided"
     exit 1

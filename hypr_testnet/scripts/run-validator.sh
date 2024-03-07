@@ -1,5 +1,5 @@
 HOME_DIR=$(pwd)
-CONFIG_FILES="${1:-$HOME_DIR/hypr_testnet/artifacts/agent-config-2024-03-06-15-19-00.json}"
+CONFIG_FILES="${1:-$HOME_DIR/hypr_testnet/artifacts/agent-config-2024-03-07-23-25-38.json}"
 echo "Using config files: $CONFIG_FILES"
 
 # Pick an informative name specific to the chain you're validating

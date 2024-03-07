@@ -5,4 +5,7 @@ hyprtestnet:
   protocol: ethereum
   rpcUrls:
     - http: https://rpc-testnet.hypr.network/
-
+  nativeToken:
+    name: Ether
+    symbol: ETH
+    decimals: 18

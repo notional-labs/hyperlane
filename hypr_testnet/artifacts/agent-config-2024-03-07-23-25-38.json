@@ -1,0 +1,102 @@
+{
+  "chains": {
+    "hyprtestnet": {
+      "name": "hyprtestnet",
+      "chainId": 882,
+      "domainId": 882,
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://rpc-testnet.hypr.network/"
+        }
+      ],
+      "merkleRootMultisigIsmFactory": "0x5824201cBaC3F490Decf4507C74D9F40B97450FB",
+      "messageIdMultisigIsmFactory": "0x87F3196e5e0dCA0BBFDe9277c9D8A3b686fE0611",
+      "aggregationIsmFactory": "0x54d35d1F64eb91eB40a82691dee2daC84706a58E",
+      "aggregationHookFactory": "0xd0b1D5FF2A7D87FA956daC48F99EaAAfE075e0c6",
+      "routingIsmFactory": "0xD82451E983881BDfD8362D1034D916645333e90b",
+      "interchainSecurityModule": "0x69a01C45e7C8a715E06F29f6D9a18ecD5560B165",
+      "sepolia": {
+        "messageIdMultisigIsm": "0x1da67D5Bdc033BDf3031FCE8c785BccD7ff7D964",
+        "merkleRootMultisigIsm": "0x7336Ef33dF500408b698cC62e665BEF9b3Da8e69",
+        "staticAggregationIsm": "0x967bE3082Cef245cc7206Ed06ED83ee2BBeCE0cB"
+      },
+      "domainRoutingIsm": "0x69a01C45e7C8a715E06F29f6D9a18ecD5560B165",
+      "merkleTreeHook": "0xaf1a54C1dD87ae0B213D80A28c63328255251F3E",
+      "protocolFee": "0xC3dfaC014887c5d1C76c9C9C119cE76c8798AF0a",
+      "mailbox": "0xEb18b672d249c779D6BD6d59A7DABb204f1ee7C3",
+      "proxyAdmin": "0x0e50536f84dC7aeC40cf50E2746e464dDE78ae0C",
+      "validatorAnnounce": "0xB1F904FFe14FeeFdf00BeD08A2E51C19c9cFDf9D",
+      "testRecipient": "0x5011869f8a60D9eE4cefd05dA94b1a2E7ffbE622",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 2969173
+      }
+    },
+    "sepolia": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-sepolia.etherscan.io/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://sepolia.etherscan.io"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 11155111,
+      "displayName": "Sepolia",
+      "domainId": 11155111,
+      "isTestnet": true,
+      "name": "sepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://ethereum-sepolia.publicnode.com"
+        },
+        {
+          "http": "https://ethereum-sepolia.blockpi.network/v1/rpc/public"
+        },
+        {
+          "http": "https://rpc.sepolia.org"
+        }
+      ],
+      "merkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+      "messageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+      "aggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+      "aggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+      "proxyAdmin": "0x97Bbc6bBaFa5Ce3b2FA966c121Af63bD09e940f8",
+      "storageGasOracle": "0x71775B071F77F1ce52Ece810ce084451a3045FFe",
+      "interchainGasPaymaster": "0x6f2756380FD49228ae25Aa7F2817993cB74Ecc56",
+      "aggregationHook": "0xe3147d5618f5e2e100690B50ec923009a4cde14A",
+      "protocolFee": "0x13AC3349Cb159fE86A22cf42DdA803D9f7309DB5",
+      "mailbox": "0xfFAEF09B3cd11D9b20d1a19bECca54EEC2884766",
+      "merkleTreeHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+      "validatorAnnounce": "0xE6105C59480a1B7DD3E4f28153aFdbE12F4CfCD9",
+      "fallbackRoutingHook": "0x17Dc724B7a2F09141C13b8AC33B396073785c2BC",
+      "testRecipient": "0xF0A1BC02A7c82155922702f39fe320f1FdB355FA",
+      "testTokenRecipient": "0x031AD9c560D37baC7d6Bd2d27A2443bAfd10101A",
+      "routingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
+      "interchainSecurityModule": "0xf100704114C686A9118a06C4501df1de98a0367A",
+      "hyprtestnet": {
+        "messageIdMultisigIsm": "0x7EF20eC795Ed83Be44f87Aa6289D0df69053Bf12",
+        "merkleRootMultisigIsm": "0x978a9b1E91102D64246530933e23467bcA127f85",
+        "staticAggregationIsm": "0x40e2e42a91f0b1Eb07227aEf55aC1c9f02e05aD7"
+      },
+      "domainRoutingIsm": "0xf100704114C686A9118a06C4501df1de98a0367A",
+      "customHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+      "index": {
+        "from": 4517401
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}

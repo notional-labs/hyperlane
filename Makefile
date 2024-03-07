@@ -9,6 +9,10 @@ run-relayer:
 init-submodule:
 	$(shell git submodule update --init --recursive)
 
+run-deploy:
+	chmod +x ./hypr_testnet/scripts/deploy-contract.sh
+	./hypr_testnet/scripts/deploy-contract.sh
+
 run-deploy-warp:
 	chmod +x ./hypr_testnet/scripts/deploy-warp.sh
 	./hypr_testnet/scripts/deploy-warp.sh

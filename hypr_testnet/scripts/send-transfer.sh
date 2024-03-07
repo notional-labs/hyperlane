@@ -12,8 +12,9 @@ if [ -z $DEPLOYER_KEY ]; then
 fi
 
 hyperlane send transfer \
-    --origin sepolia \
+    --origin sepolia  \
     --destination hyprtestnet \
     --chains "$CHAIN_CONFIG_FILE" \
     --key "$DEPLOYER_KEY" \
-    --router "$SEPOLIA_ROUTER"
+    --router "$SEPOLIA_ROUTER"\
+    --wei 10000000000000000

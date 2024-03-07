@@ -23,7 +23,7 @@ mkdir -p $VALIDATOR_SIGNATURES_DIR
 
 CONFIG_FILES=$CONFIG_FILES $BINARY_FILE \
     --db ./hyperlane_db_validator_hyprtestnet \
-    --originChainName sepolia \
+    --originChainName hyprtestnet \
     --checkpointSyncer.type localStorage \
     --checkpointSyncer.path $VALIDATOR_SIGNATURES_DIR \
     --validator.key $VALIDATOR_KEY

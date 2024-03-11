@@ -1,0 +1,43 @@
+{
+  "blasttestnet": {
+    "merkleRootMultisigIsmFactory": "0xa63eF76656E0916e5bE0Ec7EEaCedc16756a04A0",
+    "messageIdMultisigIsmFactory": "0x2f7Ff3EDB340EFbF93451e9806745fc510Af8086",
+    "aggregationIsmFactory": "0xA2043fFedCCf9d92e146b733F5C8E704ef81E08e",
+    "aggregationHookFactory": "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD",
+    "routingIsmFactory": "0x6F032794FfC8D40E550B1E19E69FeAb44153fDff",
+    "interchainSecurityModule": "0xC2cD75336a3cB355f0955afA4df95a6a1C6EE1d0",
+    "sepolia": {
+      "messageIdMultisigIsm": "0x18180fb47a06817BF1b76133e5b787f479aA9e83",
+      "merkleRootMultisigIsm": "0x10cf385dD57b8AC8063af90448e7ff1B4Cfb7553",
+      "staticAggregationIsm": "0xA9F23B8Fdbe2bab9FA21E82a78AAe4BD497ab5a8"
+    },
+    "domainRoutingIsm": "0xC2cD75336a3cB355f0955afA4df95a6a1C6EE1d0",
+    "merkleTreeHook": "0x2C4D28f33E71eCb1672CC71C36B373cD2867c4Af",
+    "protocolFee": "0x32Cb29785f875a764cC15651923Ef1023DFc4636",
+    "mailbox": "0xB1Af9460B633e27BD05235e0AdF1E25ECD615FB7",
+    "proxyAdmin": "0xEfBddC5d3b88FF439d8B89A69402265b5773a52f",
+    "validatorAnnounce": "0xE2c76dcBB7762C489a577cE2823d20bD55B1F86C",
+    "testRecipient": "0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100"
+  },
+  "sepolia": {
+    "merkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+    "messageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+    "aggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+    "aggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+    "routingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
+    "interchainSecurityModule": "0xF6878c8270e052D7f6939C331988a251C212753A",
+    "blasttestnet": {
+      "messageIdMultisigIsm": "0xA6279ced8b989DF28d7a3089Ce5471ce59fc9C7F",
+      "merkleRootMultisigIsm": "0x805EfDe10584F134bF27894Fd629Ef1BfD10e2aB",
+      "staticAggregationIsm": "0x98455f12Bc5E91F98aB8979fC1b44a40969949Fc"
+    },
+    "domainRoutingIsm": "0xF6878c8270e052D7f6939C331988a251C212753A",
+    "merkleTreeHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+    "protocolFee": "0x13AC3349Cb159fE86A22cf42DdA803D9f7309DB5",
+    "customHook": "0x4917a9746A7B6E0A57159cCb7F5a6744247f2d0d",
+    "mailbox": "0xfFAEF09B3cd11D9b20d1a19bECca54EEC2884766",
+    "proxyAdmin": "0x97Bbc6bBaFa5Ce3b2FA966c121Af63bD09e940f8",
+    "validatorAnnounce": "0xE6105C59480a1B7DD3E4f28153aFdbE12F4CfCD9",
+    "testRecipient": "0xD08f8F5955d4B030d643A4aEbA2deaa3a4020012"
+  }
+}

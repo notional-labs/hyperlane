@@ -5,4 +5,7 @@ blasttestnet:
   protocol: ethereum
   rpcUrls:
     - http: https://sepolia.blast.io
-
+  nativeToken:
+    name: Ether
+    symbol: ETH
+    decimals: 18

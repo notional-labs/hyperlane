@@ -16,7 +16,7 @@ cd $BINARY_DIR
 BINARY_FILE=$BINARY_DIR/target/release/relayer
 
 CONFIG_FILES=$CONFIG_FILES $BINARY_FILE \
-    --db ./hyperlane_db_relayer \
+    --db ./hyperlane_db_hyprtestnet_relayer \
     --relayChains hyprtestnet,sepolia \
     --allowLocalCheckpointSyncers true \
     --defaultSigner.key $RELAYER_KEY \

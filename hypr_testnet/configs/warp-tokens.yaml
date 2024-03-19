@@ -1,6 +1,6 @@
 base:
-  chainName: hyprtestnet
+  chainName: sepolia
   type: native
   isNft: false
 synthetics:
-  - chainName: sepolia
+  - chainName: hyprtestnet

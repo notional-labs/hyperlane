@@ -1,0 +1,10 @@
+hypr:
+  threshold: 1
+  validators:
+    - "MUST CHANGE VALIDATOR ADDRESS"
+
+ethereum:
+  threshold: 1
+  validators:
+    - "MUST CHANGE VALIDATOR ADDRESS"
+

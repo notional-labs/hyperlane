@@ -1,5 +1,5 @@
 .env
-hypr_testnet/.keys
+hypr_network/.keys
 blast_testnet/.keys
 tmp
 hyperlane-monorepo

@@ -1,8 +1,0 @@
-blasttestnet:
-  threshold: 1
-  validators:
-    - "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
-sepolia:
-  threshold: 1
-  validators:
-    - "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"

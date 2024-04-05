@@ -1,11 +1,9 @@
-HOME_DIR=$(pwd)/hypr_testnet
+HOME_DIR=$(pwd)/hypr-testnet
 echo $HOME_DIR
+export WARP_CONFIG_FILE="${1:-$HOME_DIR/configs/warp-tokens.yaml}"
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
-
-export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-deployment-2024-03-08-00-02-39.json}"
 export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-03-07-23-25-38.json}"
-
-export SEPOLIA_ROUTER=$(jq -r '.hyprtestnet.router' "$WARP_DEPLOYMENT_FILE")
+export OUT_DIR="${1:-$HOME_DIR/artifacts}"
 
 DEPLOYER_KEY=${2:-$(cat $HOME_DIR/.keys/deployerkey)}
 if [ -z $DEPLOYER_KEY ]; then
@@ -13,11 +11,9 @@ if [ -z $DEPLOYER_KEY ]; then
     exit 1
 fi
 
-hyperlane send transfer \
-    --origin hyprtestnet  \
-    --destination sepolia \
+hyperlane deploy warp \
+    --config "$WARP_CONFIG_FILE"\
     --chains "$CHAIN_CONFIG_FILE" \
     --core "$CORE_DEPLOYMENT_ARTIFACTS" \
-    --key "$DEPLOYER_KEY" \
-    --router "$SEPOLIA_ROUTER"\
-    --wei 10000000000000000
+    --out "$OUT_DIR" \
+    --key "$DEPLOYER_KEY"

@@ -1,8 +1,8 @@
 HOME_DIR=$(pwd)
-export CONFIG_FILES="${1:-$HOME_DIR/hypr_testnet/artifacts/agent-config-2024-03-07-23-25-38.json}"
+export CONFIG_FILES="${1:-$HOME_DIR/hypr-testnet/artifacts/agent-config-2024-03-07-23-25-38.json}"
 echo "Running relayer with config files: $CONFIG_FILES"
 
-RELAYER_KEY=${2:-$(cat $HOME_DIR/hypr_testnet/.keys/relayerkey)}
+RELAYER_KEY=${2:-$(cat $HOME_DIR/hypr-testnet/.keys/relayerkey)}
 if [ -z $RELAYER_KEY ]; then
     echo "No validator key provided"
     exit 1

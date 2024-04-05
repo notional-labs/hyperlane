@@ -1,5 +1,5 @@
 HOME_DIR=$(pwd)
-CONFIG_FILES="${1:-$HOME_DIR/hypr_testnet/artifacts/agent-config-2024-03-07-23-25-38.json}"
+CONFIG_FILES="${1:-$HOME_DIR/hypr-testnet/artifacts/agent-config-2024-03-07-23-25-38.json}"
 echo "Using config files: $CONFIG_FILES"
 
 # Pick an informative name specific to the chain you're validating
@@ -12,7 +12,7 @@ cd $BINARY_DIR
 BINARY_FILE=$BINARY_DIR/target/release/validator
 
 
-VALIDATOR_KEY=${2:-$(cat $HOME_DIR/hypr_testnet/.keys/valkey)}
+VALIDATOR_KEY=${2:-$(cat $HOME_DIR/hypr-testnet/.keys/valkey)}
 if [ -z $VALIDATOR_KEY ]; then
     echo "No validator key provided"
     exit 1

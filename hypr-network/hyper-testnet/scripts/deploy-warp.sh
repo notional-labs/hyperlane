@@ -1,8 +1,8 @@
-HOME_DIR=$(pwd)/hypr-testnet
+HOME_DIR=$(pwd)
 echo $HOME_DIR
 export WARP_CONFIG_FILE="${1:-$HOME_DIR/configs/warp-tokens.yaml}"
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
-export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-03-07-23-25-38.json}"
+export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-08-13-53-44.json}"
 export OUT_DIR="${1:-$HOME_DIR/artifacts}"
 
 DEPLOYER_KEY=${2:-$(cat $HOME_DIR/.keys/deployerkey)}

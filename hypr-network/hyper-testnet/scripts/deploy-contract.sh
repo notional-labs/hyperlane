@@ -1,4 +1,4 @@
-HOME_DIR=$(pwd)/hypr-testnet
+HOME_DIR=$(pwd)
 echo $HOME_DIR
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
 export MULTISIG_CONFIG_FILE="${1:-$HOME_DIR/configs/ism.yaml}"

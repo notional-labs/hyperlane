@@ -1,0 +1,10 @@
+{
+  "sepolia": {
+    "router": "0x61D1213CBaC2de5bFba18d745bB53fFdaB7aE236",
+    "tokenType": "native"
+  },
+  "hyprtestnet": {
+    "router": "0xA2043fFedCCf9d92e146b733F5C8E704ef81E08e",
+    "tokenType": "synthetic"
+  }
+}

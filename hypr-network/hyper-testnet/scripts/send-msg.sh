@@ -1,4 +1,4 @@
-HOME_DIR=$(pwd)/hypr-testnet
+HOME_DIR=$(pwd)
 
 RELAYER_KEY=${2:-$(cat $HOME_DIR/.keys/relayerkey)}
 if [ -z $RELAYER_KEY ]; then

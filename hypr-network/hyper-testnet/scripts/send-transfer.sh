@@ -1,9 +1,9 @@
-HOME_DIR=$(pwd)/hypr-testnet
+HOME_DIR=$(pwd)
 echo $HOME_DIR
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
 
-export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-deployment-2024-03-08-00-02-39.json}"
-export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-03-07-23-25-38.json}"
+export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-route-deployment-2024-04-08-14-01-43.json}"
+export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-08-13-53-44.json}"
 
 export SEPOLIA_ROUTER=$(jq -r '.hyprtestnet.router' "$WARP_DEPLOYMENT_FILE")
 

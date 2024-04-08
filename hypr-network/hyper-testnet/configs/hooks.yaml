@@ -1,0 +1,39 @@
+hyprtestnet:
+  required:
+    type: interchainGasPaymaster
+    beneficiary: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    oracleKey: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    overhead:
+      sepolia: 75000
+    gasOracleType:
+      sepolia: StorageGasOracle
+  default:
+    type: interchainGasPaymaster
+    beneficiary: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    oracleKey: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    overhead:
+      sepolia: 75000
+    gasOracleType:
+      sepolia: StorageGasOracle
+sepolia:
+  required:
+    type: interchainGasPaymaster
+    beneficiary: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    oracleKey: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    overhead:
+      hyprtestnet: 75000
+    gasOracleType:
+      hyprtestnet: StorageGasOracle
+  default:
+    type: interchainGasPaymaster
+    beneficiary: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    owner: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    oracleKey: "0xD227Ed60eEE10c535Ac2878E0e29C1F8541529fA"
+    overhead:
+      hyprtestnet: 75000
+    gasOracleType:
+      hyprtestnet: StorageGasOracle
+

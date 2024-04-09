@@ -2,10 +2,11 @@ HOME_DIR=$(pwd)
 echo $HOME_DIR
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
 
-export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-route-deployment-2024-04-08-14-01-43.json}"
-export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-08-13-53-44.json}"
+export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-route-deployment-2024-04-09-21-54-41.json}"
+export WARP_CONFIG_FILE="${1:-$HOME_DIR/artifacts/warp-config-2024-04-09-21-54-41.json}"
+export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-09-21-32-36.json}"
 
-export SEPOLIA_ROUTER=$(jq -r '.hyprtestnet.router' "$WARP_DEPLOYMENT_FILE")
+export SEPOLIA_ROUTER=$(jq -r '.sepolia.router' "$WARP_DEPLOYMENT_FILE")
 
 DEPLOYER_KEY=${2:-$(cat $HOME_DIR/.keys/deployerkey)}
 if [ -z $DEPLOYER_KEY ]; then
@@ -14,10 +15,11 @@ if [ -z $DEPLOYER_KEY ]; then
 fi
 
 hyperlane send transfer \
-    --origin hyprtestnet  \
-    --destination sepolia \
+    --origin sepolia  \
+    --destination hyprtestnet \
     --chains "$CHAIN_CONFIG_FILE" \
     --core "$CORE_DEPLOYMENT_ARTIFACTS" \
+    --warp "$WARP_CONFIG_FILE" \
     --key "$DEPLOYER_KEY" \
     --router "$SEPOLIA_ROUTER"\
-    --wei 10000000000000000
+    --wei 1000000000000000

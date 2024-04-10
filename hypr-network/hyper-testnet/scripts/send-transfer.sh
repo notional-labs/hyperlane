@@ -22,4 +22,4 @@ hyperlane send transfer \
     --warp "$WARP_CONFIG_FILE" \
     --key "$DEPLOYER_KEY" \
     --router "$SEPOLIA_ROUTER"\
-    --wei 1000000000000000
+    --wei 100000000000000

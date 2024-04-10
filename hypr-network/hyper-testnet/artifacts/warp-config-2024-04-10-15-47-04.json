@@ -1,0 +1,30 @@
+{
+  "tokens": [
+    {
+      "chainName": "sepolia",
+      "standard": "EvmHypNative",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "addressOrDenom": "0xc503f301ff1Fe0554c1f2A886F5128749CB4a61A",
+      "connections": [
+        {
+          "token": "ethereum|hyprtestnet|0x70c1692C8cA4Ae31EeCbeA485fC460688cAcC889"
+        }
+      ]
+    },
+    {
+      "chainName": "hyprtestnet",
+      "standard": "EvmHypSynthetic",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "addressOrDenom": "0x70c1692C8cA4Ae31EeCbeA485fC460688cAcC889",
+      "connections": [
+        {
+          "token": "ethereum|sepolia|0xc503f301ff1Fe0554c1f2A886F5128749CB4a61A"
+        }
+      ]
+    }
+  ]
+}

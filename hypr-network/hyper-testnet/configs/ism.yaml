@@ -1,10 +1,10 @@
 hyprtestnet:
   threshold: 1
   validators:
-    - "0xD0c51fF2E0f283114622C1412dBd5e9E0916Fe78"
+    - "0x96C7e8EE38d1cF1d25499BabC70DEB620A0445C2"
 
 sepolia:
   threshold: 1
   validators:
-    - "0xD0c51fF2E0f283114622C1412dBd5e9E0916Fe78"
+    - "0x96C7e8EE38d1cF1d25499BabC70DEB620A0445C2"
 

@@ -2,9 +2,9 @@ HOME_DIR=$(pwd)
 echo $HOME_DIR
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
 
-export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-route-deployment-2024-04-09-21-54-41.json}"
-export WARP_CONFIG_FILE="${1:-$HOME_DIR/artifacts/warp-config-2024-04-09-21-54-41.json}"
-export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-09-21-32-36.json}"
+export WARP_DEPLOYMENT_FILE="${1:-$HOME_DIR/artifacts/warp-route-deployment-2024-04-11-11-12-04.json}"
+export WARP_CONFIG_FILE="${1:-$HOME_DIR/artifacts/warp-config-2024-04-11-11-12-04.json}"
+export CORE_DEPLOYMENT_ARTIFACTS="${1:-$HOME_DIR/artifacts/core-deployment-2024-04-11-11-05-47.json}"
 
 export SEPOLIA_ROUTER=$(jq -r '.sepolia.router' "$WARP_DEPLOYMENT_FILE")
 

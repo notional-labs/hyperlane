@@ -6,10 +6,10 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "addressOrDenom": "0xe15613e7b383567CD00e30A00cCA2806EbBE9280",
+      "addressOrDenom": "0xeD18846e219be6D14229Ac430AFe2a8Ca0A72986",
       "connections": [
         {
-          "token": "ethereum|hyprtestnet|0x6724678E20E376F7678C60d721Dd5b0794004b1D"
+          "token": "ethereum|hyprtestnet|0x6CCFF73A639c4d50E1dF0432099f448f44f02b18"
         }
       ]
     },
@@ -19,10 +19,10 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "addressOrDenom": "0x6724678E20E376F7678C60d721Dd5b0794004b1D",
+      "addressOrDenom": "0x6CCFF73A639c4d50E1dF0432099f448f44f02b18",
       "connections": [
         {
-          "token": "ethereum|sepolia|0xe15613e7b383567CD00e30A00cCA2806EbBE9280"
+          "token": "ethereum|sepolia|0xeD18846e219be6D14229Ac430AFe2a8Ca0A72986"
         }
       ]
     }

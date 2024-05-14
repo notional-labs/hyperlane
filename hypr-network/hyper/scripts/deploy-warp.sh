@@ -1,4 +1,4 @@
-HOME_DIR=$(pwd)/hypr
+HOME_DIR=$(pwd)
 echo $HOME_DIR
 export WARP_CONFIG_FILE="${1:-$HOME_DIR/configs/warp-tokens.yaml}"
 export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"

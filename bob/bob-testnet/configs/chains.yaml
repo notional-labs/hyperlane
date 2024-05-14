@@ -1,0 +1,11 @@
+hyprtestnet:
+  name: bobtestnet
+  chainId: 111
+  domainId: 111
+  protocol: ethereum
+  rpcUrls:
+    - http: https://testnet.rpc.gobob.xyz/
+  nativeToken:
+    name: Ether
+    symbol: ETH
+    decimals: 18

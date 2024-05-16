@@ -1,6 +1,0 @@
-base:
-  chainName: sepolia
-  type: native
-  isNft: false
-synthetics:
-  - chainName: bobtestnet

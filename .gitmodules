@@ -1,3 +1,6 @@
 [submodule "hyperlane-monorepo"]
 	path = hyperlane-monorepo
 	url = https://github.com/hyperlane-xyz/hyperlane-monorepo
+[submodule "hyperlane-registry"]
+	path = hyperlane-registry
+	url = https://github.com/notional-labs/hyperlane-registry

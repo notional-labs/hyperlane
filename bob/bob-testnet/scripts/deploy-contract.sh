@@ -1,8 +1,8 @@
 HOME_DIR=$(pwd)
 echo $HOME_DIR
-export CHAIN_CONFIG_FILE="${1:-$HOME_DIR/configs/chains.yaml}"
 export MULTISIG_CONFIG_FILE="${1:-$HOME_DIR/configs/ism.yaml}"
-export OUT_DIR="${1:-$HOME_DIR/artifacts}"
+BASE_DIR=$(realpath "$(dirname "$(realpath "$0")")/../../../")
+export REGISTRY="${1:-$BASE_DIR/hyperlane-registry}"
 
 DEPLOYER_KEY=${2:-$(cat $HOME_DIR/.keys/deployerkey)}
 if [ -z $DEPLOYER_KEY ]; then
@@ -11,8 +11,7 @@ if [ -z $DEPLOYER_KEY ]; then
 fi
 
 hyperlane deploy core \
+    --registry "$REGISTRY" \
     --targets bobtestnet,sepolia \
-    --chains "$CHAIN_CONFIG_FILE" \
     --ism "$MULTISIG_CONFIG_FILE" \
-    --out $OUT_DIR \
     --key "$DEPLOYER_KEY"

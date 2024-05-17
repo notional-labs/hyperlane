@@ -1,10 +1,10 @@
 bobtestnet:
   threshold: 1
   validators:
-    - "0x96C7e8EE38d1cF1d25499BabC70DEB620A0445C2"
+    - "0x851bcBe65E938833F5a36b774629fC3333d9A314"
 
 sepolia:
   threshold: 1
   validators:
-    - "0x96C7e8EE38d1cF1d25499BabC70DEB620A0445C2"
+    - "0x851bcBe65E938833F5a36b774629fC3333d9A314"
 

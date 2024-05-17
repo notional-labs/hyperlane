@@ -5,14 +5,14 @@ tokens:
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0xB2e5A8a5cB1fB6F47744D8d7F5D5914e5Bb9E9F3"
+    addressOrDenom: "0x8B075cFb7551B28D9b1F132105E36E5eA74299D9"
     connections:
-      - token: ethereum|bobtestnet|0x2f7Ff3EDB340EFbF93451e9806745fc510Af8086
+      - token: ethereum|bobtestnet|0x4c26156ad2000C5121f79BDEE25422473c0C8d18
   - chainName: bobtestnet
     standard: EvmHypSynthetic
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0x2f7Ff3EDB340EFbF93451e9806745fc510Af8086"
+    addressOrDenom: "0x4c26156ad2000C5121f79BDEE25422473c0C8d18"
     connections:
-      - token: ethereum|sepolia|0xB2e5A8a5cB1fB6F47744D8d7F5D5914e5Bb9E9F3
+      - token: ethereum|sepolia|0x8B075cFb7551B28D9b1F132105E36E5eA74299D9

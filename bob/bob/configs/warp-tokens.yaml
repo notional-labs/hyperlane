@@ -1,6 +1,0 @@
-base:
-  chainName: ethereum
-  type: native
-  isNft: false
-synthetics:
-  - chainName: hypr

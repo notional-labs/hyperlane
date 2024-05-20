@@ -43,7 +43,10 @@
       "mailbox": "0x17D96Fb09Ddb21bd86d03514E4694329F9EB3f9E",
       "proxyAdmin": "0x39baC16311447C971085D79134e41E8867092C6D",
       "validatorAnnounce": "0xAE65A56143A519f5DE5178fdD106a94d0Df552eA",
-      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "storageGasOracle": "0x14E19334eB5156F895E786cB6b4D17c4Fe4cebB8",
+      "interchainGasPaymaster": "0xeD18846e219be6D14229Ac430AFe2a8Ca0A72986",
+      "pausableHook": "0x17e14541D0279e3167ab5fE08734Af29C5841aeF",
+      "fallbackDomainRoutingHook": "0x6eC4690825ff345823A5C94AAD78465114CA1843",
       "index": {
         "from": 9471598
       }
@@ -97,7 +100,10 @@
       "mailbox": "0x08461a059EFE3193916Cd21f77E9f01ceF1E4c7c",
       "proxyAdmin": "0x50416aeCaA129d5AD753fe2Aa204A48407E087b6",
       "validatorAnnounce": "0x6cB2343574D285D7ed524E63431bD69C97CC3947",
-      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "interchainGasPaymaster": "0x499f9f80a842Bc5D1e71f2836605bEA9f964E174",
+      "storageGasOracle": "0x269C51f6f173b51d944935f769086df099bE3d90",
+      "pausableHook": "0x5f3f36e287D0Cc0e515306667AcA5e02D74f96f7",
+      "fallbackDomainRoutingHook": "0x06Ca8890e9e424eE0D149dEBDD7D5A5e8BAf3c43",
       "index": {
         "from": 5915677
       }

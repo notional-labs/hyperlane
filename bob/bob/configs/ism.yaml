@@ -1,10 +1,10 @@
 hypr:
   threshold: 1
   validators:
-    - "MUST CHANGE VALIDATOR ADDRESS"
+    - "0xCA7ADF650Ba3f998068C3f4bFb90DADF85627eAb"
 
 ethereum:
   threshold: 1
   validators:
-    - "MUST CHANGE VALIDATOR ADDRESS"
+    - "0xCA7ADF650Ba3f998068C3f4bFb90DADF85627eAb"
 

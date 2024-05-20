@@ -1,4 +1,4 @@
-sepolia:
+ethereum:
   type: native
-bobtestnet:
+bob:
   type: synthetic

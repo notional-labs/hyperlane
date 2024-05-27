@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: ethereum
+    standard: EvmHypCollateral
+    decimals: 6
+    symbol: USDT
+    name: Tether USD
+    addressOrDenom: "0x93840E9885C6DEdcc0e9f4440D3defE914b755C3"
+    collateralAddressOrDenom: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    connections:
+      - token: ethereum|bob|0x6301360802E31Ff5824cA90CaF183D4828644071
+  - chainName: bob
+    standard: EvmHypSynthetic
+    decimals: 6
+    symbol: USDT
+    name: Tether USD
+    addressOrDenom: "0x6301360802E31Ff5824cA90CaF183D4828644071"
+    connections:
+      - token: ethereum|ethereum|0x93840E9885C6DEdcc0e9f4440D3defE914b755C3

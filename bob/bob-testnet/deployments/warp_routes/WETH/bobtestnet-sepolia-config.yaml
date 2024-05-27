@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: sepolia
+    standard: EvmHypCollateral
+    name: Wrapped Ether
+    symbol: WETH
+    decimals: 18
+    addressOrDenom: "0xF46c12569a1F6349038b9A0c201e5e64E9991dCc"
+    collateralAddressOrDenom: "0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa"
+    connections:
+      - token: ethereum|bobtestnet|0xfFfF0a30B619eF987903778F7487Eb4FCefb8185
+  - chainName: bobtestnet
+    standard: EvmHypSynthetic
+    name: Wrapped Ether
+    symbol: WETH
+    decimals: 18
+    addressOrDenom: "0xfFfF0a30B619eF987903778F7487Eb4FCefb8185"
+    connections:
+      - token: ethereum|sepolia|0xF46c12569a1F6349038b9A0c201e5e64E9991dCc

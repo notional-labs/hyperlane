@@ -1,10 +1,10 @@
-hypr:
+bob:
   threshold: 1
   validators:
-    - "0xCA7ADF650Ba3f998068C3f4bFb90DADF85627eAb"
+    - "0x227646cb36221030F3e14B9B09D70694efd08491"
 
 ethereum:
   threshold: 1
   validators:
-    - "0xCA7ADF650Ba3f998068C3f4bFb90DADF85627eAb"
+    - "0x227646cb36221030F3e14B9B09D70694efd08491"
 

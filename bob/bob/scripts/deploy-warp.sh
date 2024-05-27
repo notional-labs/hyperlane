@@ -13,4 +13,4 @@ fi
 hyperlane deploy warp \
     --registry "$REGISTRY" \
     --config "$WARP_CONFIG_FILE"\
-    --key "$DEPLOYER_KEY"
+    --key "$DEPLOYER_KEY"\

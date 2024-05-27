@@ -1,0 +1,114 @@
+{
+  "chains": {
+    "bob": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://explorer.gobob.xyz/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://explorer.gobob.xyz/"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 60808,
+      "displayName": "BOB Mainnet",
+      "domainId": 60808,
+      "isTestnet": true,
+      "name": "bob",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://rpc.gobob.xyz/"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x0AD19B0C49E29c4BC37851Bc29eF4ff77A2bADeC",
+      "staticMessageIdMultisigIsmFactory": "0xFDb267f98413cbb4a3cD340a15De2aD825b3074C",
+      "staticAggregationIsmFactory": "0xA45132d1158B0538e04707049e24624c627023e2",
+      "staticAggregationHookFactory": "0xc4b65038Fb9574893f9277DFa8040640De7960E4",
+      "domainRoutingIsmFactory": "0xA8148946BB312cBDC56Cf2b8fFb30767BB91396d",
+      "interchainSecurityModule": "0x620DA34aDCD41A40c76eEF652BC756a91d81AFC9",
+      "domainRoutingIsm": "0x620DA34aDCD41A40c76eEF652BC756a91d81AFC9",
+      "merkleTreeHook": "0xac049982f277C8e3138987dB55B30b2b7571c975",
+      "protocolFee": "0xC41D033234219A8628F107b910CD74A3A1b7F269",
+      "testRecipient": "0x664edE52FA83668F6521A883A173913B8E8BaD0E",
+      "mailbox": "0xAf49cC8Dc2c673F71c1E755fd63A2E2151C8DE2E",
+      "proxyAdmin": "0x8582d5e2A782bf67A49e05280B095bCa5688bb1b",
+      "validatorAnnounce": "0x54C1988A43c94D1Fe5689e5E0EdAc98c10181915",
+      "storageGasOracle": "0xb3D0AE4fC729724F1cF5d5b35450Aeb0C551360E",
+      "interchainGasPaymaster": "0x5eF58639d7D474447d767d1380245CDd228dcf16",
+      "pausableHook": "0x1edC751715d7F1e245a5b92a56019AF09E422242",
+      "fallbackDomainRoutingHook": "0xE6e5cF8aF07FB0980FC36dE77C9DFfFcaa53EC31",
+      "index": {
+        "from": 1700157
+      }
+    },
+    "ethereum": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api.etherscan.io/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://etherscan.io"
+        },
+        {
+          "apiUrl": "https://eth.blockscout.com/api",
+          "family": "blockscout",
+          "name": "Blockscout",
+          "url": "https://blockscout.com/eth/mainnet"
+        }
+      ],
+      "blocks": {
+        "confirmations": 7,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 14
+      },
+      "chainId": 1,
+      "displayName": "Ethereum",
+      "domainId": 1,
+      "gnosisSafeTransactionServiceUrl": "https://safe-transaction-mainnet.safe.global/",
+      "name": "ethereum",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://ethereum.publicnode.com"
+        },
+        {
+          "http": "https://cloudflare-eth.com"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x47e8aF9e30C32Ab91060ED587894288786761B45",
+      "staticMessageIdMultisigIsmFactory": "0xfA21D9628ADce86531854C2B7ef00F07394B0B69",
+      "staticAggregationIsmFactory": "0x46FA191Ad972D9674Ed752B69f9659A0d7b22846",
+      "staticAggregationHookFactory": "0x6D2555A8ba483CcF4409C39013F5e9a3285D3C9E",
+      "domainRoutingIsmFactory": "0x28fA9552F19039b450498B0d8e5DEAe0d0aAc559",
+      "interchainSecurityModule": "0x456D415A0399fC638be7ADc2a83D7694e538dee1",
+      "domainRoutingIsm": "0x456D415A0399fC638be7ADc2a83D7694e538dee1",
+      "merkleTreeHook": "0x48e6c30B97748d1e2e03bf3e9FbE3890ca5f8CCA",
+      "protocolFee": "0x8B05BF30F6247a90006c5837eA63C7905D79e6d8",
+      "customHook": "0x48e6c30B97748d1e2e03bf3e9FbE3890ca5f8CCA",
+      "testRecipient": "0x8582d5e2A782bf67A49e05280B095bCa5688bb1b",
+      "mailbox": "0xc005dc82818d67AF737725bD4bf75435d065D239",
+      "proxyAdmin": "0x75EE15Ee1B4A75Fa3e2fDF5DF3253c25599cc659",
+      "validatorAnnounce": "0xCe74905e51497b4adD3639366708b821dcBcff96",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 18422581
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}

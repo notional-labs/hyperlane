@@ -1,0 +1,4 @@
+sepolia:
+  collateral: "0xF46c12569a1F6349038b9A0c201e5e64E9991dCc"
+bobtestnet:
+  synthetic: "0xfFfF0a30B619eF987903778F7487Eb4FCefb8185"

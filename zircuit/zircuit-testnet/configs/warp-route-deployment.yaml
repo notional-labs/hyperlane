@@ -1,0 +1,6 @@
+sepolia:
+  type: collateral
+  token: "0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa"
+  isNft: false
+bobtestnet:
+  type: synthetic

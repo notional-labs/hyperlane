@@ -1,0 +1,4 @@
+sepolia:
+  type: native
+bobtestnet:
+  type: synthetic

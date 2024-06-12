@@ -1,0 +1,107 @@
+{
+  "chains": {
+    "sepolia": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-sepolia.etherscan.io/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://sepolia.etherscan.io"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 11155111,
+      "displayName": "Sepolia",
+      "domainId": 11155111,
+      "isTestnet": true,
+      "name": "sepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://ethereum-sepolia.publicnode.com"
+        },
+        {
+          "http": "https://ethereum-sepolia.blockpi.network/v1/rpc/public"
+        },
+        {
+          "http": "https://rpc.sepolia.org"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+      "staticMessageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+      "staticAggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+      "staticAggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+      "domainRoutingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
+      "interchainSecurityModule": "0x5b560EaF0ed38993a85235CdeaB19a23b3b78f86",
+      "domainRoutingIsm": "0x5b560EaF0ed38993a85235CdeaB19a23b3b78f86",
+      "merkleTreeHook": "0x954F2bD430e1e0A852D85EAF1Dd43ebc128EBA51",
+      "protocolFee": "0x32413fB8891Df3B24D70fAcb70192dd4D6827508",
+      "testRecipient": "0x910D56EDea305038c410C234eA0Ea3017549B110",
+      "mailbox": "0x08461a059EFE3193916Cd21f77E9f01ceF1E4c7c",
+      "proxyAdmin": "0x50416aeCaA129d5AD753fe2Aa204A48407E087b6",
+      "validatorAnnounce": "0x6cB2343574D285D7ed524E63431bD69C97CC3947",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 5915677
+      }
+    },
+    "zircuittestnet": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://explorer.zircuit.com/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://explorer.zircuit.com"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 48899,
+      "displayName": "Zircuit Testnet",
+      "domainId": 48899,
+      "isTestnet": true,
+      "name": "zircuittestnet",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://zircuit1.p2pify.com/"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0xd9694feC3B495Ece4EE5Ea82FD9e90fC824b094D",
+      "staticMessageIdMultisigIsmFactory": "0xE95205F991C812cA59cefd1F4FCf13b077F1dd12",
+      "staticAggregationIsmFactory": "0xb3C4cbA78074e38b349A603f245a907556EE3EDf",
+      "staticAggregationHookFactory": "0xAcFc3aBA907Ddd4b3D521eCF2AA784320913e985",
+      "domainRoutingIsmFactory": "0x0A749B61C2f0B90c6F161a3176267C8f5A8809FD",
+      "interchainSecurityModule": "0x5d5c20684554d66BCBe0147fF6861f3D38b7269F",
+      "domainRoutingIsm": "0x5d5c20684554d66BCBe0147fF6861f3D38b7269F",
+      "merkleTreeHook": "0x6cecbE3e00694D0C1D9A6c48225B57b8EE087Cd5",
+      "protocolFee": "0x672B84175482ca90E7CdaA60856bd2d7c90a8F5f",
+      "testRecipient": "0xE820BE7C7b9d6C32fE6fB93D36458A331f3121FD",
+      "mailbox": "0xcA96fa8c9cD66297c6f8004310b484E59318ad6a",
+      "proxyAdmin": "0x23CA381A5B6670Ee30aDD698aF0102DFc95b76f6",
+      "validatorAnnounce": "0x66264d4e378E7618caDA40C0acb0986788a983f8",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 9134215
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}

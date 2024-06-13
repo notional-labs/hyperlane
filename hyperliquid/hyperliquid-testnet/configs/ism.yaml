@@ -1,10 +1,10 @@
 hyperliquidtestnet:
   threshold: 1
   validators:
-    - "0xa6068516f0282BffC8604A7C3D05d92a7A448668"
+    - "0x2081944deC61Dc8428886f620b5E0C3247767FB3"
 
 sepolia:
   threshold: 1
   validators:
-    - "0xa6068516f0282BffC8604A7C3D05d92a7A448668"
+    - "0x2081944deC61Dc8428886f620b5E0C3247767FB3"
 

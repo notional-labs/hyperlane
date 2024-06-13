@@ -1,4 +1,4 @@
 sepolia:
   type: native
-bobtestnet:
+hyperliquidtestnet:
   type: synthetic

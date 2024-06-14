@@ -1,0 +1,4 @@
+sepolia:
+  native: "0x2e6673Ee15A16f05AA2612F5F9F520112ae05335"
+hyperliquidtestnet:
+  synthetic: "0x3f5E62A3cb57F55cc4e67CbC647C34B2B7872499"

@@ -1,10 +1,9 @@
 zircuittestnet:
   threshold: 1
   validators:
-    - "0xa6068516f0282BffC8604A7C3D05d92a7A448668"
+    - "0x1Ac66FFE617d60b793C06A98e23E5cef14F37B2b"
 
 sepolia:
   threshold: 1
   validators:
-    - "0xa6068516f0282BffC8604A7C3D05d92a7A448668"
-
+    - "0x1Ac66FFE617d60b793C06A98e23E5cef14F37B2b"

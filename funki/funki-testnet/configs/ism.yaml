@@ -1,0 +1,9 @@
+funkitestnet:
+  threshold: 1
+  validators:
+    - "0x012180944E2Bc378b5A031Bf63b97128Ec726966"
+
+sepolia:
+  threshold: 1
+  validators:
+    - "0x012180944E2Bc378b5A031Bf63b97128Ec726966"

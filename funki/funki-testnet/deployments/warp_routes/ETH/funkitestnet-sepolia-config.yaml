@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: sepolia
+    standard: EvmHypNative
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x715b51c41BDd94a87bfa7CCBe5B212C8F036D966"
+    connections:
+      - token: ethereum|funkitestnet|0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD
+  - chainName: funkitestnet
+    standard: EvmHypSynthetic
+    name: Ether
+    symbol: ETH
+    decimals: 18
+    addressOrDenom: "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD"
+    connections:
+      - token: ethereum|sepolia|0x715b51c41BDd94a87bfa7CCBe5B212C8F036D966

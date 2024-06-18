@@ -1,0 +1,4 @@
+sepolia:
+  native: "0x715b51c41BDd94a87bfa7CCBe5B212C8F036D966"
+funkitestnet:
+  synthetic: "0x1A145b7761e2B7D939eaABeAA2b8ef5aAeb813fD"

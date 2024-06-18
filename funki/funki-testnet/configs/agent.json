@@ -1,0 +1,107 @@
+{
+  "chains": {
+    "funkitestnet": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://sepolia-sandbox.funkichain.com/api",
+          "family": "blockscout",
+          "name": "Funkichain Explorer",
+          "url": "https://sepolia-sandbox.funkichain.com"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 3397901,
+      "displayName": "Funki Testnet",
+      "domainId": 3397901,
+      "isTestnet": true,
+      "name": "funkitestnet",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://funki-testnet.alt.technology"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0xd9694feC3B495Ece4EE5Ea82FD9e90fC824b094D",
+      "staticMessageIdMultisigIsmFactory": "0xE95205F991C812cA59cefd1F4FCf13b077F1dd12",
+      "staticAggregationIsmFactory": "0xb3C4cbA78074e38b349A603f245a907556EE3EDf",
+      "staticAggregationHookFactory": "0xAcFc3aBA907Ddd4b3D521eCF2AA784320913e985",
+      "domainRoutingIsmFactory": "0x0A749B61C2f0B90c6F161a3176267C8f5A8809FD",
+      "interchainSecurityModule": "0x5d5c20684554d66BCBe0147fF6861f3D38b7269F",
+      "domainRoutingIsm": "0x5d5c20684554d66BCBe0147fF6861f3D38b7269F",
+      "merkleTreeHook": "0x6cecbE3e00694D0C1D9A6c48225B57b8EE087Cd5",
+      "protocolFee": "0x672B84175482ca90E7CdaA60856bd2d7c90a8F5f",
+      "testRecipient": "0xE820BE7C7b9d6C32fE6fB93D36458A331f3121FD",
+      "mailbox": "0xcA96fa8c9cD66297c6f8004310b484E59318ad6a",
+      "proxyAdmin": "0x23CA381A5B6670Ee30aDD698aF0102DFc95b76f6",
+      "validatorAnnounce": "0x66264d4e378E7618caDA40C0acb0986788a983f8",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 1831888
+      }
+    },
+    "sepolia": {
+      "blockExplorers": [
+        {
+          "apiUrl": "https://api-sepolia.etherscan.io/api",
+          "family": "etherscan",
+          "name": "Etherscan",
+          "url": "https://sepolia.etherscan.io"
+        }
+      ],
+      "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 13,
+        "reorgPeriod": 2
+      },
+      "chainId": 11155111,
+      "displayName": "Sepolia",
+      "domainId": 11155111,
+      "isTestnet": true,
+      "name": "sepolia",
+      "nativeToken": {
+        "decimals": 18,
+        "name": "Ether",
+        "symbol": "ETH"
+      },
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://ethereum-sepolia.publicnode.com"
+        },
+        {
+          "http": "https://ethereum-sepolia.blockpi.network/v1/rpc/public"
+        },
+        {
+          "http": "https://rpc.sepolia.org"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x0a71AcC99967829eE305a285750017C4916Ca269",
+      "staticMessageIdMultisigIsmFactory": "0xFEb9585b2f948c1eD74034205a7439261a9d27DD",
+      "staticAggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
+      "staticAggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
+      "domainRoutingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
+      "interchainSecurityModule": "0x6c363f58DcA85d42171D17D6C31fe2cfEefCdf11",
+      "domainRoutingIsm": "0x6c363f58DcA85d42171D17D6C31fe2cfEefCdf11",
+      "merkleTreeHook": "0x0D4074Cc307c223533B5d90820dc52f85d851EDA",
+      "protocolFee": "0xd031666B212086D8AeEF01d1BA64265CFa0B5db7",
+      "testRecipient": "0x8874f143C4708Cb576b2795D4C66e3020cDAbe45",
+      "mailbox": "0x0a89A60b1a5e09632C7e1C2A8CE09AEC2846289E",
+      "proxyAdmin": "0x3eFacc0bF2f96c8BEd6775b801267b9487552e38",
+      "validatorAnnounce": "0xb88e043b0aAb0D47051266FcE5c4488f9c5638e9",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 6134489
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}

@@ -1,0 +1,4 @@
+sepolia:
+  type: native
+funkitestnet:
+  type: synthetic

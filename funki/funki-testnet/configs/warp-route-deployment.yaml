@@ -1,4 +1,6 @@
 sepolia:
-  type: native
-funkitestnet:
+  type: collateral
+  token: "0x7f0c2f38d6386268f49501707dd1421fd03353fc"
+  isNft: false
+zircuittestnet:
   type: synthetic

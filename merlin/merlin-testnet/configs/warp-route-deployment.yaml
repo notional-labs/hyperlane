@@ -1,4 +1,4 @@
 sepolia:
   type: native
-bobtestnet:
+merlintestnet:
   type: synthetic

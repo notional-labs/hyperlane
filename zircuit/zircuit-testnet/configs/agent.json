@@ -41,17 +41,17 @@
       "staticAggregationIsmFactory": "0xC83e12EF2627ACE445C298e6eC418684918a6002",
       "staticAggregationHookFactory": "0x160C28C92cA453570aD7C031972b58d5Dd128F72",
       "domainRoutingIsmFactory": "0x3F100cBBE5FD5466BdB4B3a15Ac226957e7965Ad",
-      "interchainSecurityModule": "0x969268dF8B8C127D41611521e5F742aF88fd6BD5",
-      "domainRoutingIsm": "0x969268dF8B8C127D41611521e5F742aF88fd6BD5",
-      "merkleTreeHook": "0x954F2bD430e1e0A852D85EAF1Dd43ebc128EBA51",
-      "protocolFee": "0x32413fB8891Df3B24D70fAcb70192dd4D6827508",
-      "testRecipient": "0xb0Ef00d0FC512C5eaF0290C73068f0037E84e7e7",
-      "mailbox": "0x08461a059EFE3193916Cd21f77E9f01ceF1E4c7c",
-      "proxyAdmin": "0x50416aeCaA129d5AD753fe2Aa204A48407E087b6",
-      "validatorAnnounce": "0x6cB2343574D285D7ed524E63431bD69C97CC3947",
+      "interchainSecurityModule": "0x481655Bce12A022e16512Cf32368E4eEf36d7dA4",
+      "domainRoutingIsm": "0x481655Bce12A022e16512Cf32368E4eEf36d7dA4",
+      "merkleTreeHook": "0xc61d928820922593898d488057716Ab983DdB57C",
+      "protocolFee": "0xF8e477cB7c37d69a22CF2B77E972c63cc3591Ee6",
+      "testRecipient": "0x5977195D676bBCa53935275700765A534364A9F7",
+      "mailbox": "0xe7A789C468b02cF675f2FA7D5B80D69c374363F6",
+      "proxyAdmin": "0x4661008410e49aBCA59C8efEB23B1091619Da1c9",
+      "validatorAnnounce": "0x8C0005b0a3c35aFdF1e2A63eff05AAd7D887ab42",
       "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
       "index": {
-        "from": 5915677
+        "from": 6134794
       }
     },
     "zircuittestnet": {
@@ -89,17 +89,17 @@
       "staticAggregationIsmFactory": "0xb3C4cbA78074e38b349A603f245a907556EE3EDf",
       "staticAggregationHookFactory": "0xAcFc3aBA907Ddd4b3D521eCF2AA784320913e985",
       "domainRoutingIsmFactory": "0x0A749B61C2f0B90c6F161a3176267C8f5A8809FD",
-      "interchainSecurityModule": "0x9Fc4F22B6F0add7Af7F65E054aDF2B42e1a0B34D",
-      "domainRoutingIsm": "0x9Fc4F22B6F0add7Af7F65E054aDF2B42e1a0B34D",
-      "merkleTreeHook": "0x6cecbE3e00694D0C1D9A6c48225B57b8EE087Cd5",
-      "protocolFee": "0x672B84175482ca90E7CdaA60856bd2d7c90a8F5f",
-      "testRecipient": "0xb7Ca2447b991535E3147Cde8CeacD260595e702A",
-      "mailbox": "0xcA96fa8c9cD66297c6f8004310b484E59318ad6a",
-      "proxyAdmin": "0x23CA381A5B6670Ee30aDD698aF0102DFc95b76f6",
-      "validatorAnnounce": "0x66264d4e378E7618caDA40C0acb0986788a983f8",
+      "interchainSecurityModule": "0x13b28311D097301b26e5E33554dFB42FE61c39F5",
+      "domainRoutingIsm": "0x13b28311D097301b26e5E33554dFB42FE61c39F5",
+      "merkleTreeHook": "0xFe1BE2341Eb815850e1a74634CebBe0996dCC48B",
+      "protocolFee": "0xe15613e7b383567CD00e30A00cCA2806EbBE9280",
+      "testRecipient": "0xED2e135322b67076A94B0Be81ACddbe77a12b02d",
+      "mailbox": "0x1512052D485E6b4eB214a7a25B0cc74158433bA8",
+      "proxyAdmin": "0xB8005521a7b5726e7FCaa43c2A9E3be119A8e452",
+      "validatorAnnounce": "0xc97FD3963a3F50fa0324ae89d8Ebd4C46C901E6c",
       "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
       "index": {
-        "from": 9134215
+        "from": 9415034
       }
     }
   },

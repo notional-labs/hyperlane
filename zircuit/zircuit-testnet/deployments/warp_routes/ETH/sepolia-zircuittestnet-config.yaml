@@ -5,14 +5,14 @@ tokens:
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0xE1E9A4Cc05F07055f55Be10f842FdB2690C5a2F9"
+    addressOrDenom: "0x0a8bF6AF06Bc301a9C8548382Fa91daf49099dd9"
     connections:
-      - token: ethereum|zircuittestnet|0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100
+      - token: ethereum|zircuittestnet|0x24B8018c87f3e2b8bD7F8F0726b59F2d94B857AA
   - chainName: zircuittestnet
     standard: EvmHypSynthetic
     name: Ether
     symbol: ETH
     decimals: 18
-    addressOrDenom: "0x7f2DFEcBA7D6eE9f3Ab4De606069DE13Fca3D100"
+    addressOrDenom: "0x24B8018c87f3e2b8bD7F8F0726b59F2d94B857AA"
     connections:
-      - token: ethereum|sepolia|0xE1E9A4Cc05F07055f55Be10f842FdB2690C5a2F9
+      - token: ethereum|sepolia|0x0a8bF6AF06Bc301a9C8548382Fa91daf49099dd9
